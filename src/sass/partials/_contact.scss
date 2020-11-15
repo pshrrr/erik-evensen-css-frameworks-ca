@@ -1,0 +1,62 @@
+.contact-btn {
+  color: #fff;
+  background-color: $colour-text;
+  border-color: $colour-text;
+}
+.contact-btn:hover {
+  color: #fff;
+  background-color: $colour-text;
+  border-color: $colour-text;
+}
+input[type="checkbox"] {
+  width: 16px !important;
+  height: 16px !important;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  outline: 1px solid gray;
+  box-shadow: none;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 1em;
+  background: $colour-pink;
+}
+
+input[type="checkbox"]:checked:after {
+  content: "✔";
+  color: #fff;
+}
+.h1-contact {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 50px;
+  color: $colour-pink;
+}
+.contact-container {
+  margin: 20px;
+}
+.mr-3,
+.con-icons {
+  font-size: 30px;
+  margin: 10px;
+  color: $colour-text;
+  font-family: "Lato", sans-serif;
+}
+
+.main-contact {
+  width: 90%;
+}
+@media (max-width: 800px) {
+  .contact-container {
+    margin: 20px;
+    order: 2;
+  }
+  .contact-info {
+    order: 1;
+    margin: 20px;
+  }
+  .h1-contact {
+    order: 3;
+  }
+}

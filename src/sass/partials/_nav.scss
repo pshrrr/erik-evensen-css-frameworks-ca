@@ -1,0 +1,29 @@
+.brand {
+  color: $colour-pink;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  padding: 10px;
+}
+.bg-light {
+  background-color: #efefef !important;
+}
+
+.nav-links {
+  color: $colour-pink;
+}
+.active-link {
+  background-color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: $colour-text;
+}
+.search {
+  background-color: $colour-pink;
+  color: white;
+  border-color: $colour-pink;
+}
+
+.nav-item,
+.nav-link .active {
+  color: $colour-pink;
+}

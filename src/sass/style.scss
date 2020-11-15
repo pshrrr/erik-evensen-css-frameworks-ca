@@ -1,0 +1,16 @@
+// CUSTOM
+
+$colour-pink: #e92569;
+$colour-grey: #767676;
+$colour-bg: #efefef;
+$colour-text: #3b3b3b;
+$colour-black: #0a0a0a;
+
+// BOOTSTRAP
+
+@import "~bootstrap/scss/bootstrap";
+@import "./partials/contact";
+@import "./partials/home";
+@import "./partials/news";
+@import "./partials/nav";
+@import "./partials/footer";

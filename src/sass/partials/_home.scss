@@ -1,0 +1,65 @@
+body {
+  background: $colour-bg;
+}
+
+.home-h1 {
+  color: $colour-pink;
+  text-align: left;
+  font-family: "Playfair Display", serif;
+  margin-top: 20px;
+}
+.home-head {
+  text-align: left;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: "Lato", sans-serif;
+}
+.home-body {
+  width: 90%;
+}
+.icon-container {
+  color: $colour-black;
+  text-align: left;
+}
+.acc-link {
+  color: $colour-pink;
+}
+.acc-container {
+  text-align: center;
+}
+.icon-acc {
+  text-align: center;
+}
+.d-none,
+.d-md-block {
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 50px;
+  border: none;
+}
+.tabIcons {
+  font-size: 25px;
+  margin: 10px;
+}
+
+.tab-content {
+  background: white;
+  color: $colour-text;
+  border-radius: 12px 12px 12px 12px;
+  padding: 1em;
+  margin-top: -3px;
+  border: none;
+}
+.tab-text {
+  text-align: left;
+}
+.tabImage {
+  border-radius: 6px;
+  width: 100%;
+}
+
+.tab-container {
+  border: none;
+  display: flex;
+}
